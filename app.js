@@ -20,11 +20,22 @@ var tbody = d3.select("tbody");
 //});
 
 //3. use object.entries to console.log each object value
+//data.forEach(function(tableData) {
+  //  console.log(tableData);
+  //  var row = tbody.append("tr");
+  //  Object.entries(tableData).forEach(function([key, value]){
+    //    console.log(key, value);
+  //  });
+    
+//});
+
+//4. use d3 to append each value (columns) to a cell in the table
 data.forEach(function(tableData) {
     console.log(tableData);
     var row = tbody.append("tr");
     Object.entries(tableData).forEach(function([key, value]){
         console.log(key, value);
+        var cell = tbody.append("tr");
     });
     
 });
