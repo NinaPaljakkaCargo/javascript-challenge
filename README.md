@@ -3,8 +3,7 @@
 Summary
 - Using HTML, CSS, and JavaScript to create an easy-to-read table containing the information from a large dataset. 
 
-Folders Included
-- UFO-level-1 : contains code for level 1 JS assignment 
+- UFO-level-1 : completed files below contain code for level 1 JS assignment 
   - Files Included
     - index.html : code for web landing page containing table with filtering abilities
     - style.css : webpage style code
