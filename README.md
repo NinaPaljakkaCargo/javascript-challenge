@@ -1,4 +1,4 @@
-# javascript-challenge
+# Javascript-Challenge : Website containing data of UFO-Sightings, Level 1
 -----------------------------
 Summary
 - Using HTML, CSS, and JavaScript to create an easy-to-read table containing the information from a large dataset. 
