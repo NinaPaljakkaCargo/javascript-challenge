@@ -10,6 +10,5 @@ Folders Included
     - style.css : webpage style code
     - app.js : JS code for appending data from original data table to HTML site
     - data.js : JS code containing original data 
-  -Data Used
     - nasa.jpg
     - ufo.svg
