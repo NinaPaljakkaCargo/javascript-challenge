@@ -14,9 +14,19 @@ var tbody = d3.select("tbody");
 //});
 
 //2. d3 for appending table rows to HTML for each object in console
+//data.forEach(function(tableData) {
+  //  console.log(tableData);
+  //  var row = tbody.append("tr");
+//});
+
+//3. use object.entries to console.log each object value
 data.forEach(function(tableData) {
     console.log(tableData);
     var row = tbody.append("tr");
+    Object.entries(tableData).forEach(function([key, value]){
+        console.log(key, value);
+    });
+    
 });
 
 //Use a date form in your HTML document and write JavaScript code that will listen for events and search through
