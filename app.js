@@ -3,14 +3,14 @@ var tableData = data;
 var tbody = d3.select("tbody");
 
 //collecting the data
-console.log(UFOentry);
+console.log(tableData);
 
 //write code that appends a table to your web page and then adds new rows of data for each UFO sighting
 //have a column for date/time, city, state, country, shape, and comment
 
 //1. loop through data and console.log each UFO report
-data.forEach(function(UFOentry) {
-    console.log(UFOentry);
+data.forEach(function(tableData) {
+    console.log(tableData);
 });
 
 
