@@ -9,7 +9,7 @@ console.log(data);
 
 //1. loop through data and console.log each UFO report
 data.forEach(function(data) {
-    console.log(data)
+    console.log(data);
 });
 
 
