@@ -35,7 +35,7 @@ data.forEach(function(tableData) {
     var row = tbody.append("tr");
     Object.entries(tableData).forEach(function([key, value]){
         console.log(key, value);
-        var cell = tbody.append("tr");
+        var cell = row.append("td");
         cell.text(value);
     });
     
