@@ -48,6 +48,7 @@ var button = d3.select("#button");
 button.on("click", runEnter);
 
 function runEnter() {
+    tbody.html("");
     d3.event.preventDefault();
     var inputElement = d3.select("#datetime");
     var inputValue = inputElement.property("value");
