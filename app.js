@@ -54,3 +54,11 @@ button.on("click", function() {
     var output = tableData.filter(one => one.datetime === inputValue);
     console.log(output);
 });
+
+output.forEach((selection) => {
+    var row = tbody.append("tr");
+    Object.entries(selection).forEach(([key, value]) => {
+        var cell = row.append("td");
+        cell.text(value);
+    });
+});
