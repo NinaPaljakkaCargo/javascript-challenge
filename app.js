@@ -45,14 +45,12 @@ data.forEach(function(tableData) {
 //the date/time column to find rows that match user input.
 
 var button = d3.select("#button");
-button.on("click", runEnter);
-
-function runEnter() {
+button.on("click", function() {
     tbody.html("");
     d3.event.preventDefault();
     var inputElement = d3.select("#datetime");
     var inputValue = inputElement.property("value");
     console.log(inputValue);
     var output = tableData.filter(one => one.datetime === inputValue);
-    console.log(output)
-}
+    console.log(output);
+});
