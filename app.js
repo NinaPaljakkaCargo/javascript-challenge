@@ -49,7 +49,7 @@ button.on("click", runEnter);
 
 function runEnter() {
     d3.event.preventDefault();
-    var inputElement = d3.select("#date-time");
+    var inputElement = d3.select("#Date");
     var inputValue = inputElement.property("value");
     console.log(inputValue);
     d3.select("h1>span").text(inputValue);
