@@ -53,6 +53,6 @@ function runEnter() {
     var inputElement = d3.select("#datetime");
     var inputValue = inputElement.property("value");
     console.log(inputValue);
-    d3.select("h1>span").text(inputValue);
-
+    var output = tableData.filter(one => one.datetime === inputValue);
+    console.log(output)
 }
